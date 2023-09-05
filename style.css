@@ -8,3 +8,52 @@ Helvetica {
     color:brown;
 }
 
+#Contact{
+    position:absolute;
+    float:left;
+    width: 45%;
+    top: 110%;
+}
+
+
+
+#Mailto{
+    width: 260px;
+    height: 35px;
+    border-radius: 4px;
+    border: 2px solid #4CAF50;
+    background-color: white;
+    transition-duration: 0.3s;
+    font-size: 18px;
+}
+#Mailto:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: #4CAF50;
+
+}
+
+#CopyEmail{
+    width: 260px;
+    height: 20px;
+    border-radius: 4px;
+    border: 2px solid #4CAF50;
+    background-color: white;
+    transition-duration: 0.2s;
+    font-size: 12px;
+}
+#CopyEmail:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: #4CAF50; 
+}
+#CopyEmail:active{
+    background-color: #3e8e41;
+    transform: translateY(4px);
+}
+
+#QRcode{
+    position: absolute;
+    float:right;
+    top: 120%;
+    left: 50%;
+    width: 40%;
+}
